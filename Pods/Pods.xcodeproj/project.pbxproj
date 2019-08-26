@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A7A027036F406CC243373B540AF51C6C /* TensorFlowLiteGpuExperimental */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 13215CFD2F1ED1E75652ED5C96A142DD /* Build configuration list for PBXAggregateTarget "TensorFlowLiteGpuExperimental" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TensorFlowLiteGpuExperimental;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1AFAE5789C46F8459A6BCE1078EE50CC /* Pods-Segmentation Live-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CB9AA47E31D0137CCFF71C8B25609 /* Pods-Segmentation Live-dummy.m */; };
+		1EF066BFABCF25792BBAF6054BF1B826 /* Pods-Segmentation Live-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 583F5AB6D9EB8F4FAC11464C1D3E4BE4 /* Pods-Segmentation Live-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90C266ED19A8F64175A4CC01BF8F80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C21829C032359AEA3FBECC259B022AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A027036F406CC243373B540AF51C6C;
+			remoteInfo = TensorFlowLiteGpuExperimental;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C114FAEE1B99C0FBF0884B9DA3B5454 /* Pods-Segmentation Live-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Segmentation Live-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25E4A8C31750B89C9DAD24BC2E40C233 /* Pods-Segmentation Live.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Segmentation Live.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5093A3286EF804A5662BCCBE5B198A27 /* Pods-Segmentation Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segmentation Live.debug.xcconfig"; sourceTree = "<group>"; };
+		583F5AB6D9EB8F4FAC11464C1D3E4BE4 /* Pods-Segmentation Live-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Segmentation Live-umbrella.h"; sourceTree = "<group>"; };
+		814D236FC82403D73D7391B7DC1CAF40 /* Pods_Segmentation_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Segmentation_Live.framework; path = "Pods-Segmentation Live.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C42669CEFFF1A88F2CB54F369C070B /* TensorFlowLiteGpuExperimental.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteGpuExperimental.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC142E332D9A2682DA3F1E899F1F81AA /* Pods-Segmentation Live-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segmentation Live-acknowledgements.plist"; sourceTree = "<group>"; };
+		D04FA84E40594E39E09616B7204841D4 /* Pods-Segmentation Live-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segmentation Live-Info.plist"; sourceTree = "<group>"; };
+		D762A6660B8CDBB1CCA4CF8DBEFB7A30 /* tensorflow_lite_gpu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tensorflow_lite_gpu.framework; path = Frameworks/tensorflow_lite_gpu.framework; sourceTree = "<group>"; };
+		E6277E17A87FD547577C3E28634D2828 /* Pods-Segmentation Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segmentation Live.release.xcconfig"; sourceTree = "<group>"; };
+		F65CB9AA47E31D0137CCFF71C8B25609 /* Pods-Segmentation Live-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segmentation Live-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43D5B271494A808D703F5C07EC0C91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90C266ED19A8F64175A4CC01BF8F80B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7BF417F154A51CD114F6ABEDB05051 /* Pods-Segmentation Live */ = {
+			isa = PBXGroup;
+			children = (
+				25E4A8C31750B89C9DAD24BC2E40C233 /* Pods-Segmentation Live.modulemap */,
+				1C114FAEE1B99C0FBF0884B9DA3B5454 /* Pods-Segmentation Live-acknowledgements.markdown */,
+				BC142E332D9A2682DA3F1E899F1F81AA /* Pods-Segmentation Live-acknowledgements.plist */,
+				F65CB9AA47E31D0137CCFF71C8B25609 /* Pods-Segmentation Live-dummy.m */,
+				D04FA84E40594E39E09616B7204841D4 /* Pods-Segmentation Live-Info.plist */,
+				583F5AB6D9EB8F4FAC11464C1D3E4BE4 /* Pods-Segmentation Live-umbrella.h */,
+				5093A3286EF804A5662BCCBE5B198A27 /* Pods-Segmentation Live.debug.xcconfig */,
+				E6277E17A87FD547577C3E28634D2828 /* Pods-Segmentation Live.release.xcconfig */,
+			);
+			name = "Pods-Segmentation Live";
+			path = "Target Support Files/Pods-Segmentation Live";
+			sourceTree = "<group>";
+		};
+		412B5D7DF169203EDD53D48713A14C76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				757E8012B72AE8E9F9C9D88654702FC2 /* TensorFlowLiteGpuExperimental */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4720C32E3BAB4A75B1C5E96D0E2A5579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814D236FC82403D73D7391B7DC1CAF40 /* Pods_Segmentation_Live.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9034BDB4193E503E568015165C15C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D762A6660B8CDBB1CCA4CF8DBEFB7A30 /* tensorflow_lite_gpu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE14754A32262EA53236B9D4E5F7B2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81C42669CEFFF1A88F2CB54F369C070B /* TensorFlowLiteGpuExperimental.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TensorFlowLiteGpuExperimental";
+			sourceTree = "<group>";
+		};
+		757E8012B72AE8E9F9C9D88654702FC2 /* TensorFlowLiteGpuExperimental */ = {
+			isa = PBXGroup;
+			children = (
+				4C9034BDB4193E503E568015165C15C0 /* Frameworks */,
+				6EE14754A32262EA53236B9D4E5F7B2A /* Support Files */,
+			);
+			name = TensorFlowLiteGpuExperimental;
+			path = TensorFlowLiteGpuExperimental;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				412B5D7DF169203EDD53D48713A14C76 /* Pods */,
+				4720C32E3BAB4A75B1C5E96D0E2A5579 /* Products */,
+				FFF3E371D27E066BC223DDB34128C7FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFF3E371D27E066BC223DDB34128C7FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D7BF417F154A51CD114F6ABEDB05051 /* Pods-Segmentation Live */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F60CAC84AFDD9E522A6143188BA07D19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF066BFABCF25792BBAF6054BF1B826 /* Pods-Segmentation Live-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27959619EABFB460DE4313E6615DB505 /* Pods-Segmentation Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0820813AF5B08FD5E861B25FB974B0C6 /* Build configuration list for PBXNativeTarget "Pods-Segmentation Live" */;
+			buildPhases = (
+				F60CAC84AFDD9E522A6143188BA07D19 /* Headers */,
+				619D3591CA3271179005D4DA66D055A4 /* Sources */,
+				E43D5B271494A808D703F5C07EC0C91F /* Frameworks */,
+				B26B7001218C1C0776890CC373E277EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03392230CBEF876F9F6C97B854A14713 /* PBXTargetDependency */,
+			);
+			name = "Pods-Segmentation Live";
+			productName = "Pods-Segmentation Live";
+			productReference = 814D236FC82403D73D7391B7DC1CAF40 /* Pods_Segmentation_Live.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4720C32E3BAB4A75B1C5E96D0E2A5579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27959619EABFB460DE4313E6615DB505 /* Pods-Segmentation Live */,
+				A7A027036F406CC243373B540AF51C6C /* TensorFlowLiteGpuExperimental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26B7001218C1C0776890CC373E277EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		619D3591CA3271179005D4DA66D055A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFAE5789C46F8459A6BCE1078EE50CC /* Pods-Segmentation Live-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03392230CBEF876F9F6C97B854A14713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteGpuExperimental;
+			target = A7A027036F406CC243373B540AF51C6C /* TensorFlowLiteGpuExperimental */;
+			targetProxy = 2C21829C032359AEA3FBECC259B022AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53844482B5685BA89811261CBA4B529D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6277E17A87FD547577C3E28634D2828 /* Pods-Segmentation Live.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Segmentation Live/Pods-Segmentation Live-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Segmentation Live/Pods-Segmentation Live.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71EBE76655C7E5DCF3225B1441A5073C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C42669CEFFF1A88F2CB54F369C070B /* TensorFlowLiteGpuExperimental.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5BF3E268A813DE3F9B2C05256A561EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5093A3286EF804A5662BCCBE5B198A27 /* Pods-Segmentation Live.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Segmentation Live/Pods-Segmentation Live-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Segmentation Live/Pods-Segmentation Live.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDC42EC5697B9DC1B79D1EC4229C616A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C42669CEFFF1A88F2CB54F369C070B /* TensorFlowLiteGpuExperimental.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0820813AF5B08FD5E861B25FB974B0C6 /* Build configuration list for PBXNativeTarget "Pods-Segmentation Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BF3E268A813DE3F9B2C05256A561EA /* Debug */,
+				53844482B5685BA89811261CBA4B529D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13215CFD2F1ED1E75652ED5C96A142DD /* Build configuration list for PBXAggregateTarget "TensorFlowLiteGpuExperimental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC42EC5697B9DC1B79D1EC4229C616A /* Debug */,
+				71EBE76655C7E5DCF3225B1441A5073C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

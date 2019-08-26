@@ -1,0 +1,16 @@
+PODS:
+  - TensorFlowLiteGpuExperimental (0.0.1)
+
+DEPENDENCIES:
+  - TensorFlowLiteGpuExperimental (= 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TensorFlowLiteGpuExperimental
+
+SPEC CHECKSUMS:
+  TensorFlowLiteGpuExperimental: 16d9be415bce7b2bba9e0be17e2009fd57428d0f
+
+PODFILE CHECKSUM: 5c471389261d6d70d5bc218c1486c32a3d56fabb
+
+COCOAPODS: 1.6.1

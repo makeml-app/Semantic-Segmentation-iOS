@@ -1,0 +1,6 @@
+framework module Pods_Segmentation_Live {
+  umbrella header "Pods-Segmentation Live-umbrella.h"
+
+  export *
+  module * { export * }
+}
