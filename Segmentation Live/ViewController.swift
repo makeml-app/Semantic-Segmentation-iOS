@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         }
         
         session = AVCaptureSession()
-        session.sessionPreset = .vga640x480
+        session.sessionPreset = .hd1280x720
         
         guard let device = AVCaptureDevice.default(.builtInWideAngleCamera, for: AVMediaType.video, position: position) else {
             throw PixelError.canNotSetupAVSession
@@ -110,17 +110,20 @@ class ViewController: UIViewController {
         previewLayer = AVCaptureVideoPreviewLayer(session: session)
         
         previewLayer.backgroundColor = UIColor.black.cgColor
-        previewLayer.videoGravity = .resize
+        previewLayer.videoGravity = .resizeAspect
         
-        previewLayer.frame = CGRect(x: 0, y: 0, width: preView.bounds.width, height: preView.bounds.width)
         preView.layer.addSublayer(previewLayer)
         
         
-        maskView = UIView(frame: CGRect(x: 0, y: 0, width: preView.bounds.width, height: preView.bounds.width))
-        maskView.layer.borderColor = UIColor.yellow.cgColor
-        maskView.layer.borderWidth = 2
+        maskView = UIView()
         preView.addSubview(maskView)
         preView.bringSubviewToFront(maskView)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        maskView.frame = preView.bounds
+        previewLayer.frame = preView.bounds
     }
     
     // Receive result from a model.

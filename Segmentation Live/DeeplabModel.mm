@@ -76,7 +76,7 @@ NSString* FilePathForResourceName(NSString* name, NSString* extension) {
 }
 
 -(BOOL) loadModel {
-    NSString *modelPath = FilePathForResourceName(@"result_model", @"tflite");
+    NSString *modelPath = FilePathForResourceName(@"deeplabv3_257_mv_gpu", @"tflite");
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
     if ([fileManager fileExistsAtPath: [NSString stringWithFormat:@"file://%@", modelPath]] == YES) {
@@ -177,8 +177,12 @@ NSString* FilePathForResourceName(NSString* name, NSString* extension) {
     }
     
     float* output = interpreter->typed_output_tensor<float>(0);
-    int class_count = 2;
-    static unsigned int colors[2] = {  0000000000, 0x074caf50 };
+    int class_count = 21;
+    static unsigned int colors[21] = {  0000000000, 0x804caf50, 0x80e7d32, 0x8064ffda, 0x80004d40,
+        0x800277bd, 0x8001579b, 0x8003a9f4, 0x80795548, 0x806200ea,
+        0x80d50000, 0x80ff8a80, 0x80ff8a80, 0x8033691e, 0x80827717,
+        1077952640, 0x80aeea00, 0x80ff9100, 0x80ff5722, 0x80795548,
+        0x80546e7a};
     
     for (int index = 0; index<257*257; index++) {
         int classID = 0;
